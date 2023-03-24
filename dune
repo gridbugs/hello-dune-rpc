@@ -1,0 +1,4 @@
+(executable
+  (public_name hello_rpc)
+  (flags -w -27 -g)
+  (libraries dune-rpc dune-rpc-lwt csexp lwt))
